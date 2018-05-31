@@ -1,0 +1,21 @@
+406
+1.error:
+int []arr =  new int[2];
+arr[0]=0;
+arr[1]=0;
+2.solution:
+https://leetcode.com/problems/queue-reconstruction-by-height/discuss/89439/Java-solution-using-PriorityQueue-and-LinkedList
+3.note:
+java.util
+//PriorityQueue(int initialCapacity, Comparator<? super E> comparator)
+Creates a PriorityQueue with the specified initial capacity that orders its elements according to the specified comparator.
+//offer(E e)
+Inserts the specified element into this priority queue.
+//poll
+Retrieves and removes the head of this queue, or returns null if this queue is empty.
+//LinkedList
+//void add(int index,E element)
+Inserts the specified element at the specified position in this list (optional operation). Shifts the element currently at that position (if any) and any subsequent elements to the right (adds one to their indices).
+4.confusing: PairComp
+5.key :
+adverse order by comparator in priorityqueue->poll() to get max->add to enter bigger one first
