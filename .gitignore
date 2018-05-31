@@ -1,0 +1,10 @@
+# System file
+.DS_Store
+
+# IDE file
+*.classpath
+*.project
+*.iml
+*.xml
+.idea
+out
